@@ -18,7 +18,7 @@ print("15. Square And Square Root Calculator")
 print("16. Temparature Converter")
 print("17. Discount Calculator")
 print("18. Calendar Generator")
-print("19. Simple Interest Calculator")
+print("19. Interest Calculator")
 print("20. Binary To Decimal & Decimal To Binary Converter")
 program = input("Enter Which Calculator To Use : ")
 if program == '1':
@@ -58,6 +58,6 @@ if program == '17':
 if program == '18':
     os.system('python Calendar_Generator.py')
 if program == '19':
-    os.system('python Simple_Interest_Calculator.py')
+    os.system('python Interest_Calculator.py')
 if program == '20':
     os.system('python Binary_To_Decimal_Converter.py')
